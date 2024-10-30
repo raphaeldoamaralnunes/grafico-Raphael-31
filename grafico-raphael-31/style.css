@@ -1,4 +1,22 @@
+html{
+    background: white;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:black;
-    color:white;
+    border: solid 5px darkgray;
+    border-radius: 5px;
+    margin: 5rem;
+    padding: 20px;
+    text-align: center;
+    color:white;    
+}
+
+#meuGrafico{
+    max-width: 300px;
+    max-height: 300px;
 }
